@@ -1,0 +1,14 @@
+{
+    "name": "flowithwind/ssr_detector",
+    "description": "detector ssr alive",
+    "keywords": [],
+    "type": "",
+    "license": "MIT",
+
+    "require": {
+    },
+    "autoload": {
+        "psr-4" : {
+        }
+    }
+}

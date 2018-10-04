@@ -1,0 +1,8 @@
+<?php
+
+return array(
+	"vultr.com" => array(
+		'base_uri' => "https://api.vultr.com/",
+		'api_key' => "",
+	)
+);

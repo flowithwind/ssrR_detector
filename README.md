@@ -6,9 +6,9 @@
 
 具体使用步骤如下：
 ### Mac
-1. 下载客户端软件
-下载地址：https://github.com/shadowsocks/ShadowsocksX-NG/releases/  选择最新的版本即可。
-如果你不知道怎么选，就直接下载这个地址：https://github.com/shadowsocks/ShadowsocksX-NG/releases/download/v1.8.2/ShadowsocksX-NG.app.1.8.2.zip
+1. 下载客户端软件 ShadowsocksX-NG-R8
+下载地址：https://github.com/flowithwind/ShadowsocksX-NG-R8-Bakup/blob/master/ShadowsocksX-NG-R8.dmg
+还没太搞清楚，不过貌似和ShadowsocksX-NG不是一个项目，NG不支持订阅功能，-_-||
 2. 安装到本机，可能需要手工拷贝到应用程序文件夹。
 3. 启动APP，在上方状态栏可以找到一个纸飞机的icon 
 4. 单击图标后选择：服务器->编辑订阅

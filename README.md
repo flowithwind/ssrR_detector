@@ -6,32 +6,36 @@
 
 具体使用步骤如下：
 ### Mac
-1、下载客户端软件
+1. 下载客户端软件
 下载地址：https://github.com/shadowsocks/ShadowsocksX-NG/releases/  选择最新的版本即可。
 如果你不知道怎么选，就直接下载这个地址：https://github.com/shadowsocks/ShadowsocksX-NG/releases/download/v1.8.2/ShadowsocksX-NG.app.1.8.2.zip
-2、安装到本机，可能需要手工拷贝到应用程序文件夹。
-3、启动APP，在上方状态栏可以找到一个纸飞机的icon 
-4、单击图标后选择：服务器->编辑订阅
-5、在打开的页面中输入
-订阅地址： http://116.85.23.78/feed.php
-口令（留空即可）：
-组名：auto
-最大数量（默认值）: -1
-6、编辑完成后点击OK保存，可以再手工触发一次订阅更新拉取最新的服务器信息。
+2. 安装到本机，可能需要手工拷贝到应用程序文件夹。
+3. 启动APP，在上方状态栏可以找到一个纸飞机的icon 
+4. 单击图标后选择：服务器->编辑订阅
+5. 在打开的页面中输入
+> 订阅地址： http://116.85.23.78/feed.php
+> 
+> 口令（留空即可）：
+> 
+> 组名：auto
+> 
+> 最大数量（默认值）: -1
+> 
+6. 编辑完成后点击OK保存，可以再手工触发一次订阅更新拉取最新的服务器信息。
 
 ### 其他平台
 原理类似，因为本代理是用的shadowsocksR的协议实现，所以只要是能够支持ssr://并且支持订阅的就都可以使用。
 
 客户端软件：
-https://github.com/shadowsocksr-backup/shadowsocks-rss  这个是官方项目的某个fork备份，可以作为源头
-https://github.com/erguotou520/electron-ssr   这个不推荐，一个是python的lib依赖有问题，一个是软件稳定性不好，断开连接后不能自动重连。
-https://github.com/yjij/avege/tree/master  官方推荐，我没用过
+* https://github.com/shadowsocksr-backup/shadowsocks-rss  这个是官方项目的某个fork备份，可以作为源头
+* https://github.com/erguotou520/electron-ssr   这个不推荐，一个是python的lib依赖有问题，一个是软件稳定性不好，断开连接后不能自动重连。
+* https://github.com/yjij/avege/tree/master  官方推荐，我没用过
 
 ## 开发向的一些说明
-https://github.com/flowithwind/ssrR_detector  检测工具项目源码
-Vultr.com   翻墙服务器服务提供商
-didiyun.com    检测和管理工具不熟服务提供商，感谢沈老板友情赞助服务器费用。
+* https://github.com/flowithwind/ssrR_detector  检测工具项目源码
+* Vultr.com   翻墙服务器服务提供商
+* didiyun.com    检测和管理工具不熟服务提供商，感谢沈老板友情赞助服务器费用。
 
 ## 捐助和贡献
 欢迎推荐靠谱的各平台客户端软件，可以直接发送push merge request 更新README.md。
-服务器费用由 flowithwind@github 个人负担，每月成本 5刀/台，欢迎支付宝友情赞助。
+服务器费用由 flowithwind@github 个人负担，每月成本 5刀/台，欢迎支付宝(flowithwind@gmail.com)友情赞助。

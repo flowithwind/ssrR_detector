@@ -41,7 +41,7 @@
 ## 开发向的一些说明
 * https://github.com/flowithwind/ssrR_detector  检测工具项目源码
 * Vultr.com   翻墙服务器服务提供商
-* didiyun.com    检测和管理工具不熟服务提供商，感谢沈老板友情赞助服务器费用。
+* didiyun.com    检测和管理工具部署服务提供商，感谢沈老板友情赞助服务器费用。
 
 ## 捐助和贡献
 欢迎推荐靠谱的各平台客户端软件，可以直接发送push merge request 更新README.md。

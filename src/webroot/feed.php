@@ -13,7 +13,7 @@ foreach ($entity as $key => $v) {
 echo $url;
 
 function getSsrUrl($ip){
-	$pattern = "$ip:7086:origin:chacha20:tls1.2_ticket_auth:R2djakRzczFA/?obfsparam=&protoparam=&remarks=5paw5pyN5Yqh5Zmo&group=auto";
+	$pattern = "$ip:7086:origin:chacha20:tls1.2_ticket_auth:<RealToken>/?obfsparam=&protoparam=&remarks=5paw5pyN5Yqh5Zmo&group=auto";
 	$url = "ssr://" . rtrim( base64_encode($pattern) , "=");
 	return $url;
 }
